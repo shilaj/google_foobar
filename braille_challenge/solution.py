@@ -14,6 +14,4 @@ def solution(plaintext):
         else:
             plaintext_coding.append(braille_dictionary.get(i))
     
-    print(''.join(plaintext_coding))
-
-solution("CoDe up")
+    return ''.join(plaintext_coding)
